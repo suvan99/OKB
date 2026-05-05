@@ -1,0 +1,25 @@
+{
+  "name": "okb-backend",
+  "version": "1.0.0",
+  "description": "OKB Backend Server",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test:db": "node testConn.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.1.5",
+    "socket.io": "^4.8.3",
+    "validator": "^13.15.26"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
